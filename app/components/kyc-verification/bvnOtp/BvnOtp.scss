@@ -1,0 +1,116 @@
+.otp-container {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    backdrop-filter: blur(4px);
+  }
+  
+  .otp-modal {
+    background: #ffffff;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    position: relative;
+  }
+  
+  .otp-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .otp-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  
+    .otp-title-wrapper {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+  
+      .otp-title-indicator {
+        background: #009b07;
+        padding: 0.25rem;
+        border-radius: 4px;
+      }
+  
+      .otp-title {
+        color: #171b23;
+        font-size: 28px;
+      }
+    }
+  
+    .otp-description {
+      color: #3c3232;
+      font-size: 12px;
+      padding-top: 1rem;
+      padding-left: 1rem;
+    }
+  }
+  
+  .otp-input-section {
+    padding-left: 1.5rem;
+  
+    .otp-input-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      max-width: 300px;
+  
+      .otp-input {
+        width: 100%;
+        aspect-ratio: 1;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 18px;
+        background: #f0f0f0;
+        border: 1px solid #ccc;
+  
+        &.error {
+          background: #ffe5e5;
+          border-color: #ff5a5a;
+        }
+      }
+    }
+  
+    .otp-link {
+      font-size: 14px;
+      text-decoration: underline;
+      color: inherit;
+    }
+  }
+  
+  .otp-footer {
+    padding-top: 4rem;
+  
+    .otp-button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #787878;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background: #5c5c5c;
+      }
+  
+      svg {
+        color: #ffffff;
+      }
+    }
+  }
+  

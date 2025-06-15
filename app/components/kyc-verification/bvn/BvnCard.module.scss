@@ -1,0 +1,140 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  backdrop-filter: blur(4px);
+
+  .card {
+    background: #fff;
+    border-radius: 30px;
+    // width: 100%;
+    // max-width: 32rem;
+  
+    width: 538px;
+  
+    margin: 0 1rem;
+    padding: 40px;
+    position: relative;
+  }
+
+  .content {
+    margin-top: 1.5rem;
+  }
+
+  .backButton {
+    display: flex;
+    border: none;
+    background: transparent;
+    gap: 8px;
+    align-items: center;
+    color: #200506;
+    margin-bottom: 24px;
+
+    span {
+      display: flex;
+    }
+  }
+
+  .textCenter {
+    text-align: center;
+  }
+
+  .title {
+    color: #009b07;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    color: #5e5e5e;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0 12rem 0;
+
+    .label {
+      font-weight: 700;
+      font-size: 12px;
+      color: #171b23;
+      margin: 8px 0;
+    }
+
+    .input {
+      width: 460px;
+      height: 44px;
+      outline: none;
+      padding-left: 10px;
+      border: 1px solid #009b07;
+      border-radius: 4px;
+      box-shadow: 0px 0px 0px 3px #dfffe8;
+    }
+
+    .hint {
+      color: #667085;
+      font-size: 12px;
+      font-weight: 500;
+      // margin-top: 0.5rem;
+      margin: 8px 0;
+    }
+
+    .boldHint {
+      color: #009b07;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+}
+
+// .footer {
+//   > * + * {
+//     margin-top: 1rem;
+//   }
+//   padding-top: 9rem;
+
+//   .proceedButton {
+//     width: 100%;
+//     background-color: #009b07;
+//     color: white;
+//     padding: 0.75rem 1.5rem;
+//     border-radius: 0.5rem;
+//     transition: background-color 0.2s;
+//     font-weight: 500;
+//     &:hover {
+//       background-color: #009b07;
+//     }
+//   }
+// }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.footerText {
+  font-size: 10px;
+  color: #667085;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.proceedButton {
+  width: 100%;
+  background: #009b07;
+  color: #fff;
+  border: none;
+  border: 1px solid #009b07;
+  border-radius: 8px;
+  padding: 12px;
+}

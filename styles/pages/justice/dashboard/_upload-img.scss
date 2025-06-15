@@ -1,0 +1,49 @@
+.image-upload-container {
+  // existing styles
+  position: relative;
+
+  .upload-success {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #009b07;
+    background-color: #e9ffea;
+    padding: 12px;
+    gap: 32px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+    p {
+      color: #00b368;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .close-button {
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .image-preview {
+    position: relative;
+    width: 392;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+
+  @media (max-width: 769px) {
+    .upload-success {
+      p {
+        font-size: 16px;
+      }
+
+      .close-button {
+        font-size: 18px;
+      }
+    }
+  }
+}

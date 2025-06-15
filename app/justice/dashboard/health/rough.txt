@@ -1,0 +1,1736 @@
+
+<SelectedBox />
+
+
+
+
+
+==============first page  ============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====================================================================
+
+
+
+
+
+{activeTab === "savedDetails" && (
+        <>
+          <div className="health__title">Health</div>
+          <div className="health__more-info">
+            <div className="health__more-info__intake-info">
+              <div className="health__more-info__intake-info__heading">
+                PERSONAL INFORMATION
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="0.5"
+                    y="0.5"
+                    width="35"
+                    height="35"
+                    rx="7.5"
+                    stroke="#CBCBCB"
+                  />
+                  <g clip-path="url(#clip0_2119_90607)">
+                    <path
+                      d="M22.168 10.4989C22.3868 10.2801 22.6467 10.1065 22.9326 9.98801C23.2186 9.86956 23.5251 9.80859 23.8346 9.80859C24.1442 9.80859 24.4507 9.86956 24.7366 9.98801C25.0226 10.1065 25.2824 10.2801 25.5013 10.4989C25.7202 10.7178 25.8938 10.9777 26.0122 11.2636C26.1307 11.5496 26.1917 11.8561 26.1917 12.1656C26.1917 12.4751 26.1307 12.7816 26.0122 13.0676C25.8938 13.3536 25.7202 13.6134 25.5013 13.8323L14.2513 25.0823L9.66797 26.3323L10.918 21.7489L22.168 10.4989Z"
+                      stroke="#101828"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2119_90607">
+                      <rect
+                        width="20"
+                        height="20"
+                        fill="white"
+                        transform="translate(8 8)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+              <div className="health__more-info__intake-info__details">
+                <div className="health__more-info__intake-info__details__main-content">
+                  <div className="health__more-info__intake-info__details__main-content__main">
+                    <div>
+                      <h2>First Name</h2>
+                      <span>Chukwu</span>
+                    </div>
+
+                    <div>
+                      <h2>Middle Name</h2>
+                      <span>Lato</span>
+                    </div>
+
+                    <div>
+                      <h2>Last Name</h2>
+                      <span>Ikemefuna</span>
+                    </div>
+
+                    <div>
+                      <h2>Date of Birth</h2>
+                      <span>June/28/1990</span>
+                    </div>
+
+                    <div>
+                      <h2>Age / Sex</h2>
+                      <span>23 / M</span>
+                    </div>
+
+                    <div>
+                      <h2>Intake No</h2>
+                      <span>LG2872879</span>
+                    </div>
+                  </div>
+
+                  <div className="health__more-info__intake-info__details__main-content__main">
+                    <div>
+                      <h2>Email Address</h2>
+                      <span>chukwu@gmail.com</span>
+                    </div>
+
+                    <div>
+                      <h2>Primary Address</h2>
+                      <span>No 24 Ajana Str, Opebi, Ikeja</span>
+                    </div>
+
+                    <div>
+                      <h2>NIN</h2>
+                      <span>34792048264</span>
+                    </div>
+
+                    <div>
+                      <h2>Phone Number</h2>
+                      <span>07037288294</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="health__more-info__intake-info">
+              <div className="health__more-info__intake-info__heading">
+                INTAKE INFORMATION
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="0.5"
+                    y="0.5"
+                    width="35"
+                    height="35"
+                    rx="7.5"
+                    stroke="#CBCBCB"
+                  />
+                  <g clip-path="url(#clip0_2119_90607)">
+                    <path
+                      d="M22.168 10.4989C22.3868 10.2801 22.6467 10.1065 22.9326 9.98801C23.2186 9.86956 23.5251 9.80859 23.8346 9.80859C24.1442 9.80859 24.4507 9.86956 24.7366 9.98801C25.0226 10.1065 25.2824 10.2801 25.5013 10.4989C25.7202 10.7178 25.8938 10.9777 26.0122 11.2636C26.1307 11.5496 26.1917 11.8561 26.1917 12.1656C26.1917 12.4751 26.1307 12.7816 26.0122 13.0676C25.8938 13.3536 25.7202 13.6134 25.5013 13.8323L14.2513 25.0823L9.66797 26.3323L10.918 21.7489L22.168 10.4989Z"
+                      stroke="#101828"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2119_90607">
+                      <rect
+                        width="20"
+                        height="20"
+                        fill="white"
+                        transform="translate(8 8)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+              <div className="health__more-info__intake-info__details">
+                <div className="health__more-info__intake-info__details__main-content">
+                  <div className="health__more-info__intake-info__details__main-content__main">
+                    <div>
+                      <h2>First Name</h2>
+                      <span>Chukwu</span>
+                    </div>
+
+                    <div>
+                      <h2>Middle Name</h2>
+                      <span>Lato</span>
+                    </div>
+
+                    <div>
+                      <h2>Last Name</h2>
+                      <span>Ikemefuna</span>
+                    </div>
+
+                    <div>
+                      <h2>Email Address</h2>
+                      <span>chukwu@gmail.com</span>
+                    </div>
+
+                    <div>
+                      <h2>Phone Number</h2>
+                      <span>07037288294</span>
+                    </div>
+                  </div>
+
+                  <div className="health__more-info__intake-info__details__main-content__main">
+                    <div>
+                      <h2>License No:</h2>
+                      <span>34792048264</span>
+                    </div>
+
+                    <div>
+                      <h2>Date of intake</h2>
+                      <span>June/04/2024</span>
+                    </div>
+
+                    <div>
+                      <h2>Name of Hospital</h2>
+                      <span>St John's Andrew</span>
+                    </div>
+
+                    <div>
+                      <h2>Hospital License No:</h2>
+                      <span>DR274915549</span>
+                    </div>
+
+                    <div>
+                      <h2>Title / Position</h2>
+                      <span>Surgeon</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="health__main">
+            {/* from left - right (first section) */}
+
+            <div className="health__main__grid">
+              <div className="health__main__grid__box">
+                <div className="health__main__grid__box__heading">
+                  <svg
+                    width="20"
+                    height="21"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      y="0.75"
+                      width="24"
+                      height="24"
+                      rx="12"
+                      fill="#008706"
+                    />
+                    <g clip-path="url(#clip0_2119_89026)">
+                      <path
+                        d="M13.2702 7.75V8.993C13.2702 9.867 13.2702 10.304 13.3777 10.7235C13.4842 11.1435 13.6942 11.5285 14.1137 12.2985L14.6817 13.3425C15.7507 15.3055 16.2852 16.2875 15.8467 17.015L15.8397 17.026C15.3952 17.75 14.2632 17.75 12.0002 17.75C9.73716 17.75 8.60516 17.75 8.16016 17.026L8.15366 17.015C7.71516 16.2875 8.24966 15.3055 9.31866 13.3425L9.88666 12.2985C10.3067 11.5285 10.5157 11.1435 10.6227 10.7235C10.7297 10.3035 10.7297 9.867 10.7297 8.9935V7.75M10.5002 14.751L10.5047 14.75M13.5002 15.751L13.5047 15.75M10.0002 7.75H14.0002"
+                        stroke="white"
+                        stroke-width="0.9"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9.75 12.528C10.25 11.9515 11.05 12.367 12 12.909C13.25 13.622 14 13.075 14.25 12.5575"
+                        stroke="white"
+                        stroke-width="0.9"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2119_89026">
+                        <rect
+                          width="12"
+                          height="12"
+                          fill="white"
+                          transform="translate(6 6.75)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  CLINICAL CHEMISTRY
+                </div>
+
+                <div className="health__main__grid__box__title">GLUCOSE</div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (FLU) GLUCOSE (RANDOM / FASTING)
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (EDTA) HbA1c
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (FLU) 2HPP
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__title">
+                  LIVER FUNCTION
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) LIVER FUNCTION TEST
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) ALT
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) ALP
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) TOTAL BILIRUBIN
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) DIRECT BILIRUBIN
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) ALBUMIN
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) GLOBULIN
+                  <span>N5,000</span>
+                </div>
+              </div>
+            </div>
+
+            {/* from left - right (second section) */}
+
+            <div className="health__main__grid">
+              <div className="health__main__grid__box">
+                <div className="health__main__grid__box__heading">
+                  <svg
+                    width="20"
+                    height="21"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      y="0.75"
+                      width="24"
+                      height="24"
+                      rx="12"
+                      fill="#008706"
+                    />
+                    <g clip-path="url(#clip0_2119_89026)">
+                      <path
+                        d="M13.2702 7.75V8.993C13.2702 9.867 13.2702 10.304 13.3777 10.7235C13.4842 11.1435 13.6942 11.5285 14.1137 12.2985L14.6817 13.3425C15.7507 15.3055 16.2852 16.2875 15.8467 17.015L15.8397 17.026C15.3952 17.75 14.2632 17.75 12.0002 17.75C9.73716 17.75 8.60516 17.75 8.16016 17.026L8.15366 17.015C7.71516 16.2875 8.24966 15.3055 9.31866 13.3425L9.88666 12.2985C10.3067 11.5285 10.5157 11.1435 10.6227 10.7235C10.7297 10.3035 10.7297 9.867 10.7297 8.9935V7.75M10.5002 14.751L10.5047 14.75M13.5002 15.751L13.5047 15.75M10.0002 7.75H14.0002"
+                        stroke="white"
+                        stroke-width="0.9"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9.75 12.528C10.25 11.9515 11.05 12.367 12 12.909C13.25 13.622 14 13.075 14.25 12.5575"
+                        stroke="white"
+                        stroke-width="0.9"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2119_89026">
+                        <rect
+                          width="12"
+                          height="12"
+                          fill="white"
+                          transform="translate(6 6.75)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  CLINICAL CHEMISTRY
+                </div>
+
+                <div className="health__main__grid__box__title">GLUCOSE</div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (FLU) GLUCOSE (RANDOM / FASTING)
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (EDTA) HbA1c
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (FLU) 2HPP
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__title">
+                  LIPID PROFILE
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) LIPID PROFILE
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) CHOLESTEROL HOL
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) CHOLESTEROL LDL
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) CHOLESTEROL TOTAL
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) TRIGLYCERIDES
+                  <span>N5,000</span>
+                </div>
+              </div>
+            </div>
+
+            {/* from left - right (third section) */}
+
+            <div className="health__main__grid">
+              <div className="health__main__grid__box">
+                <div className="health__main__grid__box__heading">
+                  <svg
+                    width="20"
+                    height="21"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      y="0.75"
+                      width="24"
+                      height="24"
+                      rx="12"
+                      fill="#008706"
+                    />
+                    <g clip-path="url(#clip0_2119_89026)">
+                      <path
+                        d="M13.2702 7.75V8.993C13.2702 9.867 13.2702 10.304 13.3777 10.7235C13.4842 11.1435 13.6942 11.5285 14.1137 12.2985L14.6817 13.3425C15.7507 15.3055 16.2852 16.2875 15.8467 17.015L15.8397 17.026C15.3952 17.75 14.2632 17.75 12.0002 17.75C9.73716 17.75 8.60516 17.75 8.16016 17.026L8.15366 17.015C7.71516 16.2875 8.24966 15.3055 9.31866 13.3425L9.88666 12.2985C10.3067 11.5285 10.5157 11.1435 10.6227 10.7235C10.7297 10.3035 10.7297 9.867 10.7297 8.9935V7.75M10.5002 14.751L10.5047 14.75M13.5002 15.751L13.5047 15.75M10.0002 7.75H14.0002"
+                        stroke="white"
+                        stroke-width="0.9"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9.75 12.528C10.25 11.9515 11.05 12.367 12 12.909C13.25 13.622 14 13.075 14.25 12.5575"
+                        stroke="white"
+                        stroke-width="0.9"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2119_89026">
+                        <rect
+                          width="12"
+                          height="12"
+                          fill="white"
+                          transform="translate(6 6.75)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  CLINICAL CHEMISTRY
+                </div>
+
+                <div className="health__main__grid__box__title">GLUCOSE</div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (FLU) GLUCOSE (RANDOM / FASTING)
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (EDTA) HbA1c
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (FLU) 2HPP
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__title">KIDNEY</div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) ELECTROLYTE
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) UREA
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) CREATININE
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) URIC ACID
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) CREATININE CLEARANCE
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) URINARY PROTEIN, 24HRS
+                  <span>N5,000</span>
+                </div>
+              </div>
+            </div>
+
+            {/* from left - right (fourth section) */}
+
+            <div className="health__main__grid">
+              <div className="health__main__grid__box">
+                <div className="health__main__grid__box__heading">
+                  <svg
+                    width="20"
+                    height="21"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      y="0.75"
+                      width="24"
+                      height="24"
+                      rx="12"
+                      fill="#008706"
+                    />
+                    <g clip-path="url(#clip0_2119_89026)">
+                      <path
+                        d="M13.2702 7.75V8.993C13.2702 9.867 13.2702 10.304 13.3777 10.7235C13.4842 11.1435 13.6942 11.5285 14.1137 12.2985L14.6817 13.3425C15.7507 15.3055 16.2852 16.2875 15.8467 17.015L15.8397 17.026C15.3952 17.75 14.2632 17.75 12.0002 17.75C9.73716 17.75 8.60516 17.75 8.16016 17.026L8.15366 17.015C7.71516 16.2875 8.24966 15.3055 9.31866 13.3425L9.88666 12.2985C10.3067 11.5285 10.5157 11.1435 10.6227 10.7235C10.7297 10.3035 10.7297 9.867 10.7297 8.9935V7.75M10.5002 14.751L10.5047 14.75M13.5002 15.751L13.5047 15.75M10.0002 7.75H14.0002"
+                        stroke="white"
+                        stroke-width="0.9"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9.75 12.528C10.25 11.9515 11.05 12.367 12 12.909C13.25 13.622 14 13.075 14.25 12.5575"
+                        stroke="white"
+                        stroke-width="0.9"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2119_89026">
+                        <rect
+                          width="12"
+                          height="12"
+                          fill="white"
+                          transform="translate(6 6.75)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  CLINICAL CHEMISTRY
+                </div>
+
+                <div className="health__main__grid__box__title">
+                  CARDIAC MAKERS
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) CKMB
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) CK
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) CRP
+                  <span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) TROPONIN I<span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) TROPONIN T<span>N5,000</span>
+                </div>
+
+                <div className="health__main__grid__box__options">
+                  <SelectedBox />
+                  (SST) MYOGBOLIN
+                  <span>N5,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="health__info-footer">
+            <div className="health__info-footer__main">
+              <div className="health__info-footer__main__title">
+                Payment Summary
+              </div>
+
+              <div>
+                <h2>Test Fee</h2>
+                <span>N20,000.00</span>
+              </div>
+
+              <div>
+                <h2>Registration Fee</h2>
+                <span>N1,000.00</span>
+              </div>
+
+              <div className="health__info-footer__main__total">
+                <div>
+                  <h2>
+                    Total
+                    {/* <br /> 
+              <span>(include admin fee)</span> */}
+                  </h2>
+                  <h3>N21,000.00</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={`health__info-footer__btn pointer
+          ${activeTab === "savedDetails" ? "resultDetails" : ""} 
+         `}
+              onClick={() => handleTabClick("resultDetails")}
+            >
+              Finish
+            </div>
+          </div>
+        </>
+      )}
+
+
+
+      ================= third page =======================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      ===========================================================
+
+
+
+
+
+
+
+      {activeTab === "resultDetails" && (
+        <>
+          <div className="health__title">Lab Test Result</div>
+
+          <div className="health__heading-btn">
+            <div
+              className="health__heading-btn__print pointer"
+              // onClick={() => (window.location.href = "/justice/lab-result")}
+            >
+              Print
+            </div>
+          </div>
+
+          <div className="health__more-info">
+            <div className="health__more-info__intake-info">
+              <div className="health__more-info__intake-info__heading">
+                PERSONAL INFORMATION
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="0.5"
+                    y="0.5"
+                    width="35"
+                    height="35"
+                    rx="7.5"
+                    stroke="#CBCBCB"
+                  />
+                  <g clip-path="url(#clip0_2119_90607)">
+                    <path
+                      d="M22.168 10.4989C22.3868 10.2801 22.6467 10.1065 22.9326 9.98801C23.2186 9.86956 23.5251 9.80859 23.8346 9.80859C24.1442 9.80859 24.4507 9.86956 24.7366 9.98801C25.0226 10.1065 25.2824 10.2801 25.5013 10.4989C25.7202 10.7178 25.8938 10.9777 26.0122 11.2636C26.1307 11.5496 26.1917 11.8561 26.1917 12.1656C26.1917 12.4751 26.1307 12.7816 26.0122 13.0676C25.8938 13.3536 25.7202 13.6134 25.5013 13.8323L14.2513 25.0823L9.66797 26.3323L10.918 21.7489L22.168 10.4989Z"
+                      stroke="#101828"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2119_90607">
+                      <rect
+                        width="20"
+                        height="20"
+                        fill="white"
+                        transform="translate(8 8)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+              <div className="health__more-info__intake-info__details">
+                <div className="health__more-info__intake-info__details__main-content">
+                  <div className="health__more-info__intake-info__details__main-content__main">
+                    <div>
+                      <h2>First Name</h2>
+                      <span>Chukwu</span>
+                    </div>
+
+                    <div>
+                      <h2>Middle Name</h2>
+                      <span>Lato</span>
+                    </div>
+
+                    <div>
+                      <h2>Last Name</h2>
+                      <span>Ikemefuna</span>
+                    </div>
+
+                    <div>
+                      <h2>Date of Birth</h2>
+                      <span>June/28/1990</span>
+                    </div>
+
+                    <div>
+                      <h2>Age / Sex</h2>
+                      <span>23 / M</span>
+                    </div>
+
+                    <div>
+                      <h2>Intake No</h2>
+                      <span>LG2872879</span>
+                    </div>
+                  </div>
+
+                  <div className="health__more-info__intake-info__details__main-content__main">
+                    <div>
+                      <h2>Email Address</h2>
+                      <span>chukwu@gmail.com</span>
+                    </div>
+
+                    <div>
+                      <h2>Primary Address</h2>
+                      <span>No 24 Ajana Str, Opebi, Ikeja</span>
+                    </div>
+
+                    <div>
+                      <h2>NIN</h2>
+                      <span>34792048264</span>
+                    </div>
+
+                    <div>
+                      <h2>Phone Number</h2>
+                      <span>07037288294</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="health__more-info__intake-info">
+              <div className="health__more-info__intake-info__heading">
+                INTAKE INFORMATION
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="0.5"
+                    y="0.5"
+                    width="35"
+                    height="35"
+                    rx="7.5"
+                    stroke="#CBCBCB"
+                  />
+                  <g clip-path="url(#clip0_2119_90607)">
+                    <path
+                      d="M22.168 10.4989C22.3868 10.2801 22.6467 10.1065 22.9326 9.98801C23.2186 9.86956 23.5251 9.80859 23.8346 9.80859C24.1442 9.80859 24.4507 9.86956 24.7366 9.98801C25.0226 10.1065 25.2824 10.2801 25.5013 10.4989C25.7202 10.7178 25.8938 10.9777 26.0122 11.2636C26.1307 11.5496 26.1917 11.8561 26.1917 12.1656C26.1917 12.4751 26.1307 12.7816 26.0122 13.0676C25.8938 13.3536 25.7202 13.6134 25.5013 13.8323L14.2513 25.0823L9.66797 26.3323L10.918 21.7489L22.168 10.4989Z"
+                      stroke="#101828"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2119_90607">
+                      <rect
+                        width="20"
+                        height="20"
+                        fill="white"
+                        transform="translate(8 8)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+              <div className="health__more-info__intake-info__details">
+                <div className="health__more-info__intake-info__details__main-content">
+                  <div className="health__more-info__intake-info__details__main-content__main">
+                    <div>
+                      <h2>First Name</h2>
+                      <span>Chukwu</span>
+                    </div>
+
+                    <div>
+                      <h2>Middle Name</h2>
+                      <span>Lato</span>
+                    </div>
+
+                    <div>
+                      <h2>Last Name</h2>
+                      <span>Ikemefuna</span>
+                    </div>
+
+                    <div>
+                      <h2>Email Address</h2>
+                      <span>chukwu@gmail.com</span>
+                    </div>
+
+                    <div>
+                      <h2>Phone Number</h2>
+                      <span>07037288294</span>
+                    </div>
+                  </div>
+
+                  <div className="health__more-info__intake-info__details__main-content__main">
+                    <div>
+                      <h2>License No:</h2>
+                      <span>34792048264</span>
+                    </div>
+
+                    <div>
+                      <h2>Date of intake</h2>
+                      <span>June/04/2024</span>
+                    </div>
+
+                    <div>
+                      <h2>Name of Hospital</h2>
+                      <span>St John's Andrew</span>
+                    </div>
+
+                    <div>
+                      <h2>Hospital License No:</h2>
+                      <span>DR274915549</span>
+                    </div>
+
+                    <div>
+                      <h2>Title / Position</h2>
+                      <span>Surgeon</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="health__test-result">
+            <div className="health__test-result__heading">
+              <div>HAEMATOLOGY</div>
+
+              <div>
+                <h2>
+                  COLLECTION DATE/TIME:
+                  <span>Jun/28/1990 16:28</span>
+                </h2>
+              </div>
+
+              <div>
+                <h2>
+                  RECIEVED DATE/TIME:
+                  <span>Jun/28/1990 16:28</span>
+                </h2>
+              </div>
+
+              <div>
+                <h2>
+                  REPORT DATE/TIME:
+                  <span>Jun/28/1990 16:28</span>
+                </h2>
+              </div>
+            </div>
+
+            <div className="health__test-result__main">
+              <table class="health__test-result__main__table">
+                <thead>
+                  <tr>
+                    <th>TEST</th>
+                    <th>RESULT</th>
+                    <th>REF RANGE</th>
+                    <th>TEST</th>
+                    <th>RESULT</th>
+                    <th>REF RANGE</th>
+                    <th>TEST</th>
+                    <th>RESULT</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  {/* row 1 */}
+
+                  <tr>
+                    <td>HAEMATOCRIT (PCV)</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                      34
+                    </td>
+
+                    <td>F 35-47% M 42 - 52%</td>
+
+                    <td>PLATELET COUNT</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>150,000 - 400,000/MM³</td>
+
+                    <td>BLOOD GROUP</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+                  </tr>
+
+                  {/* row 2 */}
+
+                  <tr>
+                    <td>HAEMOGBLOBIN (HB)</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>12 - 18G/DL</td>
+
+                    <td>RBC COUNT</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>4 - 6XX 100³/L</td>
+
+                    <td>GENOTYPE</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+                  </tr>
+
+                  {/* row 3 */}
+
+                  <tr>
+                    <td>
+                      T.WHITE BLOOD CELL
+                      {/* (TWBC) */}
+                    </td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                      5000
+                    </td>
+
+                    <td>4000 - 11000³MM³</td>
+
+                    <td>RETICS</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>0 - 2%</td>
+
+                    <td>SICKLING TEST</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+                  </tr>
+
+                  {/* row 4 */}
+
+                  <tr>
+                    <td>NEUTROPHILS</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>50 - 70%</td>
+
+                    <td>MCV</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>80-90/L</td>
+
+                    <td>
+                      COOMBS TEST
+                      {/* (DIRECT) */}
+                    </td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+                  </tr>
+
+                  {/* row 5 */}
+
+                  <tr>
+                    <td>LYMPHOCYTES</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                      50%
+                    </td>
+
+                    <td>25 - 40%</td>
+
+                    <td>MCH</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>25 - 32 PG</td>
+
+                    <td>
+                      COOMBS TEST
+                      {/* (INDIRECT) */}
+                    </td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+                  </tr>
+
+                  {/* row 6 */}
+
+                  <tr>
+                    <td>MONOCYLTES</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>2 - 10%</td>
+
+                    <td>MCHC</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>32 - 36 g/dL</td>
+                  </tr>
+
+                  {/* row 7 */}
+
+                  <tr>
+                    <td>EDSINOPHILS</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>1 - 6%</td>
+
+                    <td>BLEEDING TIME</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>up to 5 min</td>
+                  </tr>
+
+                  {/* row 8 */}
+
+                  <tr>
+                    <td>BASOPHILS</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>0 - 1%</td>
+
+                    <td>CLOTHING TIME</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>8 - 15 min</td>
+                  </tr>
+
+                  {/* row 9 */}
+
+                  <tr>
+                    <td>ESR</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>F 0-10min/hr M 0-10min/hr</td>
+
+                    <td>RETICS</td>
+
+                    <td>
+                      {/* <input type="text" placeholder="Enter Result" /> */}
+                    </td>
+
+                    <td>10 - 14 min</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="health__test-result__footer">
+              <div className="health__test-result__footer__title">
+                Blood Film Comment
+              </div>
+
+              <form action="">
+                <div>
+                  <label>Red Blood Cell (RBC):</label>
+
+                  <div>
+                    <input type="text" placeholder="Enter RBC" />
+                  </div>
+                </div>
+
+                <div>
+                  <label>White Blood Cell (WBC):</label>
+
+                  <div>
+                    <input type="text" placeholder="Enter WBC" />
+                  </div>
+                </div>
+
+                <div>
+                  <label>Platelets:</label>
+
+                  <div>
+                    <input type="text" placeholder="Enter Platelets" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <section>
+            <div className="health__test-result2">
+              <div className="health__test-result2__heading">
+                <div>SERALOGY</div>
+              </div>
+
+              <div className="health__test-result2__main">
+                <table class="health__test-result2__main__table">
+                  <thead>
+                    <tr>
+                      <th>INVESTIGATION</th>
+                      <th>RESULT</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {/* row 1 */}
+
+                    <tr>
+                      <td>RHEUMATOID FACTOR</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 2 */}
+
+                    <tr>
+                      <td>HEP. B SURFACE ANTIGEN</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 3 */}
+
+                    <tr>
+                      <td>HEPATITIS A VIRUS</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 4 */}
+
+                    <tr>
+                      <td>HEPATITIS C VIRUS</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 5 */}
+
+                    <tr>
+                      <td>FAECAL OCCULT BLOOD</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 6 */}
+
+                    <tr>
+                      <td>ANTI-STREPTOLYSINO TITRE</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 7 */}
+
+                    <tr>
+                      <td>PROSTATE SPECIFIC ANTIGEN (PSA)</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 8 */}
+
+                    <tr>
+                      <td>HIV 1 & 2</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                        Negative
+                      </td>
+                    </tr>
+
+                    {/* row 9 */}
+
+                    <tr>
+                      <td>VDRL</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 10 */}
+
+                    <tr>
+                      <td>MANTOLIX / HEAF TEST</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 11 */}
+
+                    <tr>
+                      <td>CHLAMYDIA</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 12 */}
+
+                    <tr>
+                      <td>BLOOD TB</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+
+                    {/* row 13 */}
+
+                    <tr>
+                      <td>PREGNANCY TEST (BHCG)</td>
+
+                      <td>
+                        {/* <select>
+                          <option selected disabled>
+                            N/A
+                          </option>
+                          <option>Positive</option>
+                          <option>Negative</option>
+                        </select> */}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div>
+              <div className="health__test-result">
+                <div className="health__test-result__heading">
+                  <div>PARASITOLOGY</div>
+                </div>
+
+                <div className="health__test-result__main">
+                  <table class="health__test-result__main__table">
+                    <thead>
+                      <tr>
+                        <th>MALARIA PARASITE</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      {/* row 1 */}
+
+                      <tr>
+                        <td>STOOL APPEARANCE</td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+                      </tr>
+
+                      {/* row 2 */}
+
+                      <tr>
+                        <td>MICROSCOPY</td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+                      </tr>
+
+                      {/* row 3 */}
+
+                      <tr>
+                        <td>MICROFLARIA (BLOOD)</td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+                      </tr>
+
+                      {/* row 4 */}
+
+                      <tr>
+                        <td>MICROFLARIA (SKIN SNIP)</td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div className="health__test-result">
+                <div className="health__test-result__heading">
+                  <div>WIDAL TEST</div>
+                </div>
+
+                <div className="health__test-result__main">
+                  <table class="health__test-result__main__table">
+                    <thead>
+                      <tr>
+                        <th>ANTIGEN</th>
+                        <th>"O"</th>
+                        <th>"H"</th>
+                        <th>COMMENTS</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      {/* row 1 */}
+
+                      <tr>
+                        <td>Salmonella typhl</td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Comment" /> */}
+                        </td>
+                      </tr>
+
+                      {/* row 2 */}
+
+                      <tr>
+                        <td>S. paratyphl A</td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Comment" /> */}
+                        </td>
+                      </tr>
+
+                      {/* row 3 */}
+
+                      <tr>
+                        <td>S. paratyphl B</td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Comment" /> */}
+                        </td>
+                      </tr>
+
+                      {/* row 4 */}
+
+                      <tr>
+                        <td>S. paratyphl C</td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Result" /> */}
+                        </td>
+
+                        <td>
+                          {/* <input type="text" placeholder="Enter Comment" /> */}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </section>
+        </>
+      )}
+
+
+
+
+
+      ============================  fourth page   ====================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==============================================
+
+
+
+
+
+

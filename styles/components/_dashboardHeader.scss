@@ -1,0 +1,135 @@
+.dashboard-header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeef4;
+  border-left: 1px solid #eaeef4;
+  border-right: 1px solid #eaeef4;
+  padding-right: 25px;
+  background: #fff;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 10.31px;
+    position: relative;
+    &__img {
+      margin-left: 10px;
+    }
+
+    &__title-group {
+      &__title {
+        @extend %title-16;
+        margin-bottom: 5px;
+      }
+      &__subtitle {
+        // @extend %title-8;
+        font-size: 14px;
+        color: #009b07;
+        font-weight: 400;
+      }
+    }
+
+    &__mobile-menu {
+      display: none;
+    }
+  }
+
+  &__board {
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 70px;
+    border: 1px solid #d7d7d7;
+    background: #f9f9f9;
+
+    & > svg {
+      margin-left: 15px;
+    }
+
+    & > input {
+      width: 100%;
+      background-color: transparent;
+      outline: none;
+      color: #959ba4;
+      border: none;
+    }
+  }
+
+  &__account {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+    &__notifications {
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+      background: #e4e4e499;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    &__search {
+      height: 50px;
+      min-width: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 7rem;
+      border: 1px solid var(--Grey-Grey-30, #eaeef4);
+      cursor: pointer;
+    }
+
+    &__img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+    }
+
+    .active-svg {
+      position: absolute;
+      right: 0;
+      top: 75%;
+    }
+  }
+
+  @media (max-width: 769px) {
+    padding-right: 0;
+    padding: 0 20px;
+
+    &__logo {
+      &__mobile-menu {
+        display: initial;
+
+        & > button {
+          background: none;
+          border: none;
+        }
+      }
+      &__img {
+        display: none;
+      }
+      &__title-group {
+        display: none;
+      }
+    }
+    &__board {
+      display: none;
+    }
+
+    &__account {
+      &__button {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+ {
+    "categories": {
+      "PACKAGE": [
+        { "test": "STI Profile", "amount": 5000 },
+        { "test": "Full Blood Count", "amount": 2000 },
+        { "test": "Nanny/Domestic Staff Screening", "amount": 7000 },
+        { "test": "Comprehensive Male", "amount": 10000 },
+        { "test": "Comprehensive Female", "amount": 10000 },
+        { "test": "Food Handlers Screening", "amount": 3000 },
+        { "test": "Pre-Employment Screening", "amount": 5000 },
+        { "test": "Pre-Marital Screening", "amount": 7000 },
+        { "test": "Fertility Screening", "amount": 10000 },
+        { "test": "Hormonal Profile", "amount": 8000 }
+      ],
+      "CLINICAL CHEMISTRY": {
+        "Glucose": [
+          { "test": "(FLU) Glucose (Random/Fasting)", "amount": 1500 },
+          { "test": "(EDTA) HbA1c", "amount": 2000 },
+          { "test": "(FLU) 2HPP", "amount": 3000 },
+          { "test": "(FLU) OGTT-75g Standard", "amount": 5000 }
+        ],
+        "Liver Function": [
+          { "test": "(SST) Liver Function Test", "amount": 5000 },
+          { "test": "(SST) ALT", "amount": 2000 },
+          { "test": "(SST) AST", "amount": 2000 },
+          { "test": "(SST) ALP", "amount": 3000 },
+          { "test": "(SST) Total Bilirubin", "amount": 1500 },
+          { "test": "(SST) Direct Bilirubin", "amount": 1500 },
+          { "test": "(SST) Total Protein", "amount": 2000 },
+          { "test": "(SST) Albumin", "amount": 1500 },
+          { "test": "(SST) Globulin", "amount": 2000 }
+        ],
+        "Lipid Profile": [
+          { "test": "(SST) Lipid Profile", "amount": 5000 },
+          { "test": "(SST) Cholesterol, HDL", "amount": 2000 },
+          { "test": "(SST) Cholesterol, LDL", "amount": 2000 },
+          { "test": "(SST) Cholesterol, Total", "amount": 2000 },
+          { "test": "(SST) Triglycerides", "amount": 2500 }
+        ],
+        "Kidney": [
+          { "test": "(SST) Electrolyte, Urea, Creatinine", "amount": 3000 },
+          { "test": "(SST) Electrolyte", "amount": 1500 },
+          { "test": "(SST) Urea", "amount": 1500 },
+          { "test": "(SST) Creatinine", "amount": 1500 },
+          { "test": "(SST) Uric Acid", "amount": 2000 },
+          { "test": "(UNV) Creatinine Clearance (24hrs)", "amount": 6000 },
+          { "test": "(UNV) Urinary Protein (24hrs)", "amount": 4000 }
+        ],
+        "Cardiac Markers": [
+          { "test": "(SST) CKMB", "amount": 4000 },
+          { "test": "(SST) CK", "amount": 2000 },
+          { "test": "(SST) CRP", "amount": 2500 },
+          { "test": "(SST) Troponin I", "amount": 4000 },
+          { "test": "(SST) Troponin T", "amount": 4000 },
+          { "test": "(SST) Myoglobin", "amount": 4000 }
+        ]
+      },
+      "ENDOCRINOLOGY/IMMUNOLOGY": [
+        { "test": "(SST) 17-OH Progesterone", "amount": 5000 },
+        { "test": "(SST) ACTH", "amount": 6000 },
+        { "test": "(SST) Aldosterone", "amount": 6000 },
+        { "test": "(SST) ANA", "amount": 5000 },
+        { "test": "(SST) And CCP", "amount": 5000 },
+        { "test": "(SST) Anti-Mullerian Hormone", "amount": 7000 },
+        { "test": "(SST) Beta HCG, Qualitative", "amount": 4000 },
+        { "test": "(SST) Beta HCG, Quantitative", "amount": 5000 },
+        { "test": "(SST) C3 Complement", "amount": 4000 },
+        { "test": "(SST) C4 Complement", "amount": 4000 }
+      ],
+      "SEROLOGY": [
+        { "test": "H PYLORI ANTIBODY", "amount": 5000 },
+        { "test": "TOXOPLASMA IgG", "amount": 5000 },
+        { "test": "TOXOPLASMA IgM", "amount": 5000 }
+      ],
+      "HEPATITIS VIRUSES": [
+        { "test": "HBsAg RAPID", "amount": 5000 },
+        { "test": "HEPATITIS & PROFILE", "amount": 10000 },
+        { "test": "HEPATITIS B VIRAL LOAD", "amount": 15000 }
+      ]
+    }
+  }
+  

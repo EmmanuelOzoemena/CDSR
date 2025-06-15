@@ -1,0 +1,113 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  backdrop-filter: blur(4px);
+}
+
+.card {
+  background: #fff;
+  border-radius: 30px;
+  // width: 100%;
+  // max-width: 32rem;
+
+  width: 538px;
+
+  margin: 1rem;
+  padding: 40px;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #009b07;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #5e5e5e;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  padding: 16px 8px;
+
+  // transition: background-color 0.2s ease;
+
+  // &:hover {
+  //   // background-color: #f9fafb;
+  //   border-color: #009b07;
+  // }
+}
+
+.stepTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #292d32;
+  margin-bottom: 6px;
+}
+
+.stepDescription {
+  font-size: 12px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.footerText {
+  font-size: 10px;
+  color: #667085;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.proceedButton {
+  width: 100%;
+  background: #009b07;
+  color: #fff;
+  border: none;
+  border: 1px solid #009b07;
+  border-radius: 8px;
+  padding: 12px;
+}

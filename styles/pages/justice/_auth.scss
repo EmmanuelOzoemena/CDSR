@@ -1,0 +1,350 @@
+.auth {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 33px 0;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    // margin-bottom: 116.91px;
+
+    &__inner {
+      height: fit-content;
+      &__title {
+        @extend %title-16;
+        margin-bottom: 4.81px;
+      }
+
+      &__subtitle {
+        @extend %title-10;
+      }
+    }
+  }
+
+  &__title {
+    @extend %title-32;
+    text-align: center;
+    color: #006d05;
+    font-weight: 600;
+    max-width: 40ch;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+
+  &__titte {
+    @extend %title-32;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 40ch;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 59px;
+
+    p {
+      color: #009b07;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 10px;
+    }
+  }
+
+  &__form {
+    max-width: 360px;
+    width: 100%;
+    margin: auto;
+
+    &__title {
+      @extend %title-30;
+      color: #101828;
+    }
+
+    &__subtitle {
+      color: #737373;
+      font-size: 16px;
+      font-style: normal;
+      margin-top: 1rem;
+      margin-bottom: 25px;
+      // margin-bottom: 1.5rem;
+    }
+
+    &__error {
+      color: #e0003e;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 32px 0 4px 0;
+    }
+
+    &__label {
+      margin-bottom: 6px;
+      margin-top: 20px;
+    }
+
+    &__input {
+      @extend %normal-input;
+    }
+
+    &__caution {
+      color: #667085;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 6px;
+      margin-bottom: 24px;
+    }
+
+    &__button {
+      @extend %primary-button;
+    }
+
+    &__account {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__a-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+        margin-top: 24px;
+        margin-right: 14px;
+      }
+
+      &__request {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #009b07;
+        text-decoration: underline;
+        margin-top: 24px;
+      }
+    }
+  }
+
+  &__unauth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & > svg {
+      margin-bottom: 56px;
+    }
+
+    &__title {
+      @extend %title-36;
+      margin-bottom: 10px;
+    }
+
+    &__subtitle {
+      @extend %title-24;
+      font-weight: 400;
+      color: #949494;
+      & > span {
+        font-weight: 700;
+        color: #009b07;
+        text-decoration: underline;
+      }
+    }
+  }
+  &__auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & > svg {
+      margin-bottom: 32px;
+    }
+
+    &__title {
+      @extend %title-36;
+    }
+  }
+
+  &__modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__inner {
+      width: fit-content;
+      min-height: 393px;
+      border-radius: 12px;
+      padding: 40px 65px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &__title {
+        color: #009b07;
+        @extend %title-32;
+        font-weight: 550;
+        margin-bottom: 8px;
+      }
+
+      &__subtitle {
+        color: var(--Secondary, #667085);
+        @extend %title-14;
+        font-weight: 400;
+        margin-bottom: 40px;
+      }
+
+      &__otp-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 26px;
+        margin-bottom: 42px;
+
+        & > input {
+          width: 75px;
+          height: 62px;
+
+          border-radius: 10px;
+          border: 1px solid var(--Linear, #206db0);
+          background: var(--Gray-Text-box, #f5f5f5);
+
+          text-align: center;
+
+          color: var(--Gray-Active-text-colour, #161616);
+          font-size: 24px;
+          font-weight: 600;
+        }
+
+        &__active {
+          border: 2px solid #028c4b !important;
+          outline: none;
+        }
+      }
+
+      &__input {
+        @extend %case-input;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding-left: 0;
+        font-size: 1.2rem;
+      }
+
+      &__request {
+        text-align: center;
+        @extend %title-14;
+        font-weight: 400;
+        text-decoration-line: underline;
+        color: #126fb5;
+        margin-bottom: 50px;
+      }
+
+      &__options {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+
+        & > button {
+          width: 170px;
+          padding: 16px 0;
+          border: 1px solid #009b07;
+          background-color: #eeffef;
+          border-radius: 8px;
+          color: #009b07;
+          font-size: 15px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+        }
+
+        & > button:hover {
+          background-color: #0ab713;
+          color: #fff;
+        }
+      }
+
+      & > button {
+        @extend %create-button;
+        max-width: 100%;
+      }
+      &__business {
+        @extend %create-button;
+        padding: 2rem;
+      }
+    }
+  }
+
+  &__otp-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f3f4f6; 
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+    animation: fadeIn 0.3s ease-in-out;
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+
+  @media (max-width: 430px) {
+    &__modal {
+      &__inner {
+        width: 90%;
+        padding: 20px 16px;
+
+        &__title {
+          font-size: 20px;
+        }
+
+        &__subtitle {
+          font-size: 14px;
+          margin-bottom: 20px;
+        }
+
+        &__otp-group {
+          grid-template-columns: repeat(6, 1fr);
+          gap: 6px;
+          margin-bottom: 20px;
+
+          & > input {
+            width: 40px;
+            height: 48px;
+            font-size: 18px;
+          }
+        }
+
+        & > button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

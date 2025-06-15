@@ -1,0 +1,90 @@
+.justice-home {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60.5px 0;
+
+  &__logo {
+    margin-bottom: 16px;
+  }
+  &__title {
+    @extend %title-32;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+      @extend %title-20;
+      margin-bottom: 46.5px;
+      color: #009b07;
+  }
+
+  &__subsubtitle {
+    @extend %title-30;
+      text-align: center;
+    margin-bottom: 32px;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+
+    &__card {
+      // width: 100%;
+      width: 470px;
+      height: 96px;
+      border-radius: 10px;
+      border: 1px solid #c9c9c9;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 26px;
+      cursor: pointer;
+
+      @extend %title-20;
+      font-weight: 600;
+    }
+  }
+
+  &__agency-grid {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr;
+margin-bottom: 90px;
+
+&__img {
+  border: 10px solid #00AC08;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+  }
+
+  &__button {
+    @extend %primary-button;
+    background: #ADADAD;
+    border: 1px solid #ADADAD;
+
+    &:hover {
+      background: #009b07;
+      border: 1px solid #009b07;
+    }
+  }
+
+  @media (max-width: 769px) {
+    &__cards {
+      gap: 6px;
+      
+      &__card {
+        width: 270px;
+        height: 76px;
+      }
+    }
+  }
+}

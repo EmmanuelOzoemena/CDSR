@@ -1,0 +1,54 @@
+.kycBanner {
+    margin-top: 1rem;
+  
+    .main {
+      // border: 1px dotted #009b07; 
+      // border-radius: 0.25rem;
+      // padding: 0.25rem 0.5rem;
+      // width: 67%;
+      // display: flex;
+      // align-items: center;
+  
+      // .textContent {
+      //   margin-left: 0.75rem;
+  
+      //   .heading {
+      //     font-size: 24px;
+      //     color: #009b07;
+      //     font-weight: bold;
+      //     width: 24rem;
+      //   }
+  
+      //   .description {
+      //     color: #82595A;
+      //     font-size: 0.875rem;
+      //   }
+      // }
+  
+      .completeButton {
+        // background-color: #009b07;
+        // color: white;
+        // padding: 0.5rem 1.5rem;
+        // border-radius: 0.25rem;
+        // margin-left: 3.2rem;
+        // margin-top: 0.75rem;
+
+        // display: flex;
+        // align-items: center;
+        // gap: 4px;
+        background-color: #009b07;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+
+        // transition: 0.4s;
+        // cursor: pointer;
+      }
+    }
+  
+    .modalContainer {
+      z-index: 40;
+    }
+  }
+  

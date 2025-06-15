@@ -1,0 +1,112 @@
+@import 'base/reset';
+
+@import 'utils/variables';
+
+@import 'base/fonts';
+@import 'base/global';
+
+@import 'shared/typography';
+@import 'shared/fields';
+@import 'shared/svgs';
+@import 'shared/buttons';
+
+
+@import 'components/sidebar';
+@import 'components/header';
+@import 'components/footer';
+
+
+@import 'components/dashboardHeader';
+@import 'components/dashboardSideBar';
+@import 'components/menu';
+@import 'components/admin/adminDashboardHeader';
+@import 'components/sidebar';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/added-favourite';
+@import 'components/notifications';
+@import 'components/finance/tabs';
+@import 'components/finance/nav';
+
+
+@import 'pages/home';
+@import 'pages/justice/home';
+@import 'pages/justice/auth';
+@import 'pages/justice/request';
+@import 'pages/justice/dashboard/layout';
+@import 'pages/justice/dashboard/home';
+@import 'pages/justice/loading/loading';
+
+// @import 'pages/justice/dashboard/create-case';
+// @import 'pages/justice/dashboard/case-details';
+
+@import 'pages/justice/dashboard/suspect';
+@import 'pages/justice/dashboard/upload-img';
+@import 'pages/justice/dashboard/search';
+@import 'pages/justice/dashboard/matches';
+@import 'pages/justice/dashboard/no-match';
+@import 'pages/justice/dashboard/profile.scss';
+@import 'pages/justice/dashboard/suspect-retrieved';
+@import 'pages/justice/dashboard/suspect-appended';
+@import 'pages/justice/dashboard/add-profile';
+@import 'pages/justice/dashboard/suspect-profile';
+@import 'pages/justice/dashboard/suspect-list';
+@import 'pages/justice/dashboard/menu';
+@import 'pages/justice/dashboard/calendar';
+@import 'pages/justice/dashboard/favourite-case';
+@import 'pages/justice/dashboard/deactivated-case';
+@import 'pages/justice/dashboard/lab-result';
+@import 'pages/justice/dashboard/chat/chat';
+// @import 'pages/justice/dashboard/case-file';
+// @import 'pages/justice/dashboard/otp.scss';
+// @import 'pages/justice/dashboard/review.scss';
+@import 'pages/justice/dashboard/finance/home';
+@import 'pages/justice/dashboard/finance/layout';
+@import 'pages/justice/dashboard/finance/invoice-and-billing';
+@import 'pages/justice/dashboard/finance/transfer';
+@import 'pages/justice/dashboard/finance/overview';
+
+@import 'pages/justice/dashboard/staff/home';
+@import 'pages/justice/dashboard/staff/new-security';
+@import 'pages/justice/dashboard/staff/review';
+@import 'pages/justice/dashboard/staff/payment';
+@import 'pages/justice/dashboard/staff/added-security';
+@import 'pages/justice/dashboard/staff/security-details';
+
+@import 'pages/justice/dashboard/passed';
+@import 'pages/justice/dashboard/incident';
+@import 'pages/justice/dashboard/modal';
+@import 'pages/justice/dashboard/receipt';
+@import 'pages/justice/dashboard/report-incident';
+@import 'pages/justice/dashboard/review-report';
+@import 'pages/justice/dashboard/background-check';
+@import 'pages/justice/dashboard/health';
+@import 'pages/justice/dashboard/payment-review';
+@import 'pages/justice/dashboard/kyc';
+@import 'pages/justice/dashboard/bvn-successful';
+@import 'pages/justice/dashboard/face-successful';
+
+
+// @import 'pages/justice/dashboard/email/email';
+
+
+@import 'pages/justice/admin/layout';
+@import 'pages/justice/admin/home';
+@import 'pages/justice/admin/add-user';
+@import 'pages/justice/admin/added-user';
+@import 'pages/justice/admin/deactivate-user';
+@import 'pages/justice/admin/deactivated-user';
+@import 'pages/justice/admin/access-control';
+@import 'pages/justice/admin/add-role';
+@import 'pages/justice/admin/added-role';
+@import 'pages/justice/admin/invite-user';
+@import 'pages/justice/admin/user-request';
+@import 'pages/justice/admin/ticket-details';
+@import 'pages/justice/admin/departments';
+@import 'pages/justice/admin/preview-user';
+@import 'pages/justice/admin/logs';
+@import 'pages/justice/admin/notifications';
+@import 'pages/justice/admin/notification-settings';
+@import 'pages/justice/admin/support';
+
+@import 'pages/justice/dashboard/email/email';

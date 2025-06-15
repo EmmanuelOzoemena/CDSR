@@ -1,0 +1,338 @@
+.request {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+
+  &__personal-info {
+    // position: relative;
+    background-color: #f5f9fa;
+    width: 442px;
+    // width: 542px;
+    // height: 100vh;
+    padding: 22px;
+    // padding: 44px;
+
+    &__title {
+      font-size: 16px;
+      color: #000;
+      font-weight: 700;
+    }
+
+    &__sub-title {
+      font-size: 16px;
+      color: #000;
+      font-weight: 700;
+    }
+
+    &__detail {
+      margin-top: 160px;
+      margin-bottom: 38rem;
+      // display: none;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+
+      &__info-box {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+
+        .icon {
+          width: 50px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #fff;
+          border: 1px solid #eee;
+          border-radius: 5px;
+          padding: 14px;
+          margin-right: 10px;
+        }
+
+        .text {
+          h4 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            color: #161616;
+            font-weight: 600;
+          }
+
+          p {
+            margin: 0;
+            font-size: 12px;
+            color: #a0a0a0;
+          }
+
+          .reg-button {
+            width: 120px;
+            padding: 8px;
+            font-size: 12px;
+            background-color: #009b07;
+            border: 1px solid #009b07;
+            color: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .line {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 5px 20px;
+        // svg {
+        //   width: 2px;
+        //   height: 40px;
+        // }
+      }
+    }
+  }
+
+  &__account-details {
+    width: 100%;
+    height: 100vh;
+    padding: 44px;
+
+    &__title {
+      font-size: 28px;
+      color: #161616;
+      font-weight: 500;
+    }
+
+    &__sub-title {
+      font-size: 14px;
+      color: #a0a0a0;
+      font-weight: 400;
+      margin-top: 8px;
+      margin-bottom: 30px;
+    }
+
+    .test {
+      margin-bottom: 12px;
+
+      .upload-photo {
+        width: 126px;
+        height: 126px;
+        border: 1px dashed #000;
+        background-color: #f9fbfd;
+        border-radius: 50%;
+        padding: 28px 18px;
+        text-align: center;
+
+        input {
+          width: 100%;
+        }
+      }
+
+      .upload-link {
+        font-size: 10px;
+        color: #009b07;
+        cursor: pointer;
+        margin-top: 10px;
+        text-align: center;
+      }
+    }
+
+    &__note {
+      width: 180px;
+      display: flex;
+      align-items: center;
+      background-color: #ddebde;
+      padding: 5px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+
+      p {
+        color: #334155;
+        font-size: 10px;
+        font-weight: 400;
+        margin-left: 8px;
+      }
+    }
+
+    &__form {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 18px;
+      //   gap: 28px;
+
+      & > div {
+        label {
+          color: #344054;
+          font-size: 14px;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+
+        & > div {
+          width: 100%;
+          height: 44px;
+          padding: 8px 14px;
+          border: 1px solid #d0d5dd;
+          border-radius: 8px;
+          margin-bottom: 5px;
+
+          // Target react-phone-input-2 container
+          .react-tel-input {
+            width: 100%;
+          }
+
+          // Match input field to select elements
+          .form-control {
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            color: #667085;
+            font-weight: 400;
+            border: none;
+            background: transparent;
+            padding-left: 50px; // Push text away from the flag
+          }
+
+          // Style the country dropdown flag box
+          .flag-dropdown {
+            background: transparent;
+            border: none;
+            padding: 0 10px;
+          }
+
+          .selected-flag {
+            border-radius: 8px;
+            padding: 5px;
+          }
+
+          input,
+          select {
+            width: 100%;
+            height: 24px;
+            outline: none;
+            border: none;
+            color: #667085;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    &__button {
+      width: 160px;
+      height: 42.5px;
+      padding: 12px 32px;
+      font-size: 16px;
+      background-color: #009b07;
+      border: 1px solid #009b07;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      position: fixed;
+      bottom: 20px;
+      right: 43px;
+    }
+
+    &__btn {
+      width: 85px;
+      // width: 65px;
+      height: 42.5px;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #009b07;
+      border: 1px solid #009b07;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      position: fixed;
+      bottom: 20px;
+      right: 43px;
+    }
+  }
+
+  @media (max-width: 769px) {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &__personal-info {
+      // display: none;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 190px;
+      padding: 24px 16px;
+      position: relative;
+
+      &__title {
+        font-size: 18px;
+        margin-left: 12px;
+        margin-bottom: 22px;
+      }
+
+      &__detail {
+        display: none;
+      }
+    }
+
+    &__account-details {
+      padding: 24px 16px;
+
+      &__title,
+      &__sub-title {
+        text-align: center;
+      }
+
+      .test {
+        .upload-photo {
+          width: 206px;
+          height: 126px;
+          border-radius: 12px;
+          margin: 0 auto;
+        }
+      }
+
+      &__note {
+        margin: 12px auto;
+      }
+
+      &__form {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      // &__button {
+      //   width: 260px;
+      //   height: 42.5px;
+      //   text-align: center;
+      //   padding: 12px 0;
+      //   position: relative;
+      //   margin: 5rem auto;
+      // }
+
+      // &__btn {
+      //   width: 70px;
+      //   height: 42.5px;
+      //   text-align: center;
+      //   padding: 12px 0;
+      //   position: relative;
+      //   margin: 5rem auto;
+      // }
+    }
+  }
+}
+
+.label {
+  color: #344054;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.select {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+}
