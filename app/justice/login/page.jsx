@@ -89,8 +89,6 @@ export default function Auth() {
       // }
 
       // alert("Login logic is disabled. Restore the login API call here.");
-
-      // Simulate successful login
       window.location.href = "/justice/dashboard";
     } catch (error) {
       console.error("Login Error:", error);
