@@ -6,11 +6,11 @@ import { useState, useRef, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
-import { useFormik } from "formik";
-import axios from "axios";
-import Dashboard from "../dashboard/page";
-import { login } from "../../apis/auth";
-import jwt_decode from "jwt-decode";
+// import { useFormik } from "formik"; // Not used in code
+// import axios from "axios"; // Not used in code
+// import Dashboard from "../dashboard/page"; // Not used directly
+// import { login } from "../../apis/auth"; // Removed for now
+// import jwt_decode from "jwt-decode"; // Not used in this file
 
 export default function Auth() {
   const dispatch = useDispatch();
@@ -23,7 +23,6 @@ export default function Auth() {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalOpenTwo, setModalOpenTwo] = useState(false);
   const [role, setRole] = useState("Employer");
-  // const [otp, setOtp] = useState(new Array(4).fill(""));
   const [otp, setOtp] = useState(["", "", "", ""]);
   const inputRefs = useRef([]);
 
@@ -38,18 +37,15 @@ export default function Auth() {
   const handleModalClose = (e) => {
     if (e.target.classList.contains("auth__modal")) {
       setModalOpen(false);
-      // setModalOpenTwo(false);
     }
   };
 
   const handleOtpChange = (index, value) => {
     if (/^[0-9]?$/.test(value)) {
-      // Ensure only numeric input
       const newOtp = [...otp];
       newOtp[index] = value;
       setOtp(newOtp);
 
-      // Auto-focus to next input
       if (value && index < 3) {
         document.getElementById(`otp-input-${index + 1}`).focus();
       }
@@ -69,39 +65,36 @@ export default function Auth() {
     setLoading(true);
 
     try {
-      const response = await login(email, password);
-      console.log("Response:", response);
+      // const response = await login(email, password);
+      // if (response?.status === 201 && response?.data?.accessToken) {
+      //   const token = response.data.accessToken;
+      //   const userInfo = response.data.user;
 
-      if (response?.status === 201 && response?.data?.accessToken) {
-        const token = response.data.accessToken;
-        const userInfo = response.data.user;
+      //   localStorage.setItem("token", token);
+      //   document.cookie = `auth_token=${token}; path=/; max-age=${60 * 60 * 24 * 7};`;
 
-        // Store token
-        localStorage.setItem("token", token);
-        document.cookie = `auth_token=${token}; path=/; max-age=${
-          60 * 60 * 24 * 7
-        };`;
+      //   dispatch({
+      //     type: "USER_LOGIN_SUCCESS",
+      //     payload: { token, userInfo },
+      //   });
 
-        dispatch({
-          type: "USER_LOGIN_SUCCESS",
-          payload: { token, userInfo },
-        });
+      //   window.location.href = "/justice/dashboard";
+      // } else if (
+      //   response?.data?.statusCode === 401 ||
+      //   response?.data?.statusCode === 403
+      // ) {
+      //   window.location.href = "/justice/unauthorized";
+      // } else {
+      //   alert(response?.data?.message || "Login failed. Please try again.");
+      // }
 
-        // Redirect after successful login
-        window.location.href = "/justice/dashboard";
-      } else if (
-        response?.data?.statusCode === 401 ||
-        response?.data?.statusCode === 403
-      ) {
-        window.location.href = "/justice/unauthorized";
-      } else {
-        alert(response?.data?.message || "Login failed. Please try again.");
-      }
+      // alert("Login logic is disabled. Restore the login API call here.");
+
+      // Simulate successful login
+      window.location.href = "/justice/dashboard";
     } catch (error) {
       console.error("Login Error:", error);
-      alert(
-        "An unexpected error occurred. Please check your connection and try again."
-      );
+      alert("An unexpected error occurred. Please check your connection.");
     }
 
     setLoading(false);
@@ -112,36 +105,33 @@ export default function Auth() {
     setLoading(true);
 
     const enteredOtp = otp.join("");
-    const response = await verifyOtp(email, enteredOtp);
 
-    console.log("OTP Verification Response:", response?.data);
+    try {
+      // const response = await verifyOtp(email, enteredOtp);
 
-    if (response?.status === 201) {
-      const token = response?.data?.token;
+      // if (response?.status === 201) {
+      //   const token = response?.data?.token;
+      //   localStorage.setItem("token", token);
+      //   document.cookie = `auth_token=${token}; path=/; max-age=${60 * 60 * 24 * 7};`;
 
-      // Store token in localStorage and cookies
-      localStorage.setItem("token", token);
-      document.cookie = `auth_token=${token}; path=/; max-age=${
-        60 * 60 * 24 * 7
-      };`;
+      //   dispatch({
+      //     type: "USER_LOGIN_SUCCESS",
+      //     payload: { token },
+      //   });
 
-      // Dispatch user login success
-      dispatch({
-        type: "USER_LOGIN_SUCCESS",
-        payload: {
-          token: token,
-        },
-      });
+      //   window.location.href = "/justice/login";
+      // } else if (
+      //   response?.data?.statusCode === 401 ||
+      //   response?.data?.statusCode === 403
+      // ) {
+      //   window.location.href = "/justice/unauthorized";
+      // } else {
+      //   alert(response?.data?.message);
+      // }
 
-      // Redirect to login page after OTP verification
-      window.location.href = "/justice/login";
-    } else if (
-      response?.data?.statusCode === 401 ||
-      response?.data?.statusCode === 403
-    ) {
-      window.location.href = "/justice/unauthorized";
-    } else {
-      alert(response?.data?.message);
+      alert("OTP verification is disabled. Restore the OTP API call here.");
+    } catch (err) {
+      console.error("OTP Error:", err);
     }
 
     setLoading(false);
@@ -150,24 +140,26 @@ export default function Auth() {
   const handleResendOtp = async () => {
     setLoading(true);
 
-    const response = await requestOtp(email);
+    try {
+      // const response = await requestOtp(email);
 
-    console.log("response", response);
-    // window.location.href = "/justice/dashboard";
+      // if (response?.status === 201) {
+      //   alert("A new OTP has been sent to your email");
+      // } else if (
+      //   response?.data?.statusCode === 401 ||
+      //   response?.data?.statusCode === 403
+      // ) {
+      //   window.location.href = "/justice/unauthorized";
+      // } else {
+      //   alert("Unable to resend OTP");
+      // }
 
-    if (response?.status === 201) {
-      alert("A new OTP has been sent to your email");
-    } else if (
-      response?.data?.statusCode === 401 ||
-      response?.data?.statusCode === 403
-    ) {
-      window.location.href = "/justice/unauthorized";
-    } else {
-      alert("Unable to resend OTP");
+      alert("Resend OTP logic disabled. Restore the requestOtp API call.");
+    } catch (err) {
+      console.error("Resend OTP Error:", err);
     }
-    setLoading(false);
 
-    console.log("respoooo", response);
+    setLoading(false);
   };
 
   useEffect(() => {
